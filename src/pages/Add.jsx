@@ -9,16 +9,14 @@ let Add = (props) => {
     let [name,updateName]=useState("")
     let [number,updateNumber]=useState(0)
 
-   
-
     return(
         <div className="add">
 
             <div className="parentInputShow" style={{display : show}}>
                 <div style={{height: "100%",
-    display: "flex",
-    justifyContent: "center",
-    alignItems: "center"}}>
+                            display: "flex",
+                            justifyContent: "center",
+                            alignItems: "center"}}>
                     <div  className="inputShow">
                         <div className="closeButton" onClick={()=>{
                             updateShow('none')
@@ -44,8 +42,8 @@ let Add = (props) => {
             </div>
             
             <div style={{zIndex : 1,overflow: "scroll",
-                height: "93%",
-                overflowX: "hidden"}}>
+                        height: "93%",
+                        overflowX: "hidden"}}>
             {all.map((x,i)=>{
                 return(
                     <div className="singleElementRender">
