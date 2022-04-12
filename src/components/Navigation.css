@@ -1,0 +1,14 @@
+.navigation { 
+    background-color: rgb(88, 88, 235);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 80px;
+    align-items: center;
+}
+
+.splitter{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-weight: bold;
+    font-family: cursive;
+}
