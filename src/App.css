@@ -2,3 +2,10 @@
   display: flex;
     justify-content: center;
 }
+
+.add{
+  width: 50%;
+  background-color: lemonchiffon;
+  height: 92vh;
+  position: relative;  
+}

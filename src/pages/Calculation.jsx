@@ -15,15 +15,15 @@ let Calculate = (obj) => {
         if((i["Amount"]-singleExpend)>0){
             let k = {Name : i["Name"],Amount :(i["Amount"]-singleExpend)}
             taker.push(k)
-            console.log("taken",i["Name"],i["Amount"],k)
+            // console.log("taken",i["Name"],i["Amount"],k)
         }
         else{
             let k={Name : i["Name"],Amount :(singleExpend-i["Amount"])}
             giver.push(k)
-            console.log("given",i["Name"],i["Amount"],k)
+            // console.log("given",i["Name"],i["Amount"],k)
         }
     }    
-    console.log(sum,sum/t,t,giver,taker)
+    // console.log(sum,sum/t,t,giver,taker)
     console.log(giver,taker)
 
     let results = []

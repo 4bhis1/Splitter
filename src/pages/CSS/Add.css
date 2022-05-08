@@ -1,10 +1,4 @@
-.add{
-    width: 50%;
-    background-color: lemonchiffon;
-    height: 92vh;
-    position: relative;
-    
-}
+
 
 .button{
     position: absolute;
@@ -51,6 +45,18 @@
     width: 50%;
     height: 20%;
     position: relative;
+    border-radius: 10px;
+}
+
+.containerOfCloseButton{
+    width: 100%;
+    /* background-color: blue; */
+    height: 32px;
+    padding: 0px;
+    justify-content: center;
+    display: flex;
+    align-content: flex-end;
+    margin-right: 20px;
 }
 
 .parentInputShow{
@@ -65,7 +71,7 @@
 .closeButton {
     color:white;
     height: 10px;
-    width: 10px;
+    width: '100%';
     display: flex;
     justify-content: center;
     align-items: center;
